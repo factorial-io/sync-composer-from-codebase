@@ -1,0 +1,13 @@
+grumphp:
+    process_timeout: 180
+    stop_on_failure: true
+    tasks:
+      composer: ~
+      phplint: ~
+      phpcs:
+        standard:
+          - PSR2
+      phpunit:
+        group: ['default']
+      phpstan: ~
+
