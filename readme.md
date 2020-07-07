@@ -10,6 +10,7 @@
 1. Clone this repository to a place suitable for you
 2. cd into that folder
 3. run `composer install`
+4. run `chmod +x bin/scfc`
 
 
 ## Usage
